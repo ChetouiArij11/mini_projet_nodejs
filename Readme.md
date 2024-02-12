@@ -6,7 +6,8 @@ Bienvenue dans notre projet API de Gestion des Tâches
 
 Vous pouvez regarder une démonstration  dans la vidéo ci-dessous :
 
-<video controls src="assets/vd/miniprojet2.mp4" title="Title"></video>
+
+[![Vidéo Miniature](assets/vd/miniprojet2_thumbnail.png)](assets/vd/miniprojet2.mp4)
 
 
 ## Installation
