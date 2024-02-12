@@ -6,11 +6,6 @@ Bienvenue dans notre projet API de Gestion des Tâches
 
 Vous pouvez regarder une démonstration  dans la vidéo ci-dessous :
 
-
-[Regarder la vidéo](assets/vd/miniprojet2.mp4)
-
-
-
 ## Installation
 
 Pour installer et exécuter ce projet localement, suivez ces étapes :
