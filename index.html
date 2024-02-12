@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application de gestion des tâches</title>
+ 
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const socket = io();
+
+    
+      socket.on('nouvelleTache', (nouvelleTache) => {
+        console.log('Nouvelle tâche créée : ', nouvelleTache);
+        const listeTaches = document.getElementById('liste-taches');
+        const nouvelleTacheElement = document.createElement('li');
+        nouvelleTacheElement.textContent = nouvelleTache.title;
+        listeTaches.appendChild(nouvelleTacheElement);
+      });
+
+   
+    });
+  </script>
+</head>
+<body>
+  <h1>Liste des tâches</h1>
+  <ul id="liste-taches">
+   
+  </ul>
+
+</body>
+</html>
