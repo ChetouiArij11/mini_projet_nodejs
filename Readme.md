@@ -23,4 +23,4 @@ Toute contribution à ce projet est la bienvenue ! N'hésitez pas à soumettre d
 
 ## Licence
 
-Ce projet est sous licence MIT. Pour plus d'informations, veuillez consulter le fichier [LICENSE](LICENSE).
+Ce projet est sous licence MIT. Pour plus d'informations, veuillez consulter le fichier [swagger.yaml](swagger.yaml).
